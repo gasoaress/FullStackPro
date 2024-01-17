@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details e Summary</title>
+</head>
+<body>
+    <h1>Details and Summary</h1>
+
+        <details open>
+            <summary>Heróis da Marvel</summary>
+            <p>Este abaixo é o Homem Aranha Miles Morales.</p>
+            <img widht="320" height="240" src="../Videos/miranha.jpg" alt="Foto do Miranha">
+            <!-- CRIA UM ÍCONE EXPANSIVO CHAMADO 'Heróis da Marvel' QUANDO CLICO NO ÍCONE EU VEJO O MEU PARÁGRAFO E IMAGEM-->
+        </details>
+
+        <details>
+            <summary>Inimigo do Homem Aranha</summary>
+            <p>Rino é um homem rinoceronte.</p>
+            <img widht="320" height="240" src="Rino.jfif" alt="Rino Inimigo do Homem Aranha">
+        </details>
+        
+        <details>
+            <summary>Não sei</summary>
+            <p>Não sei</p>
+        </details>
+
+        <h2>Aplicando um dataList</h2>
+
+        <form >
+            <input list="herois" name="heroi" placeholder="Procure por um Herói" >
+            <datalist id="herois">
+                <option value="Homem Aranha"></option>
+                <option value="Homem de Ferro"></option>
+                <option value="Hulk"></option>
+                <option value="Thor"></option>
+            </datalist>
+        </form>
+</body>
+</html>

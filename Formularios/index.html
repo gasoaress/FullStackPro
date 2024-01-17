@@ -1,58 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
 </head>
+
 <body>
-    <h1>Furmulários</h1> <hr>
+    <h1>Furmulários</h1>
+    <hr>
 
     <h2>Inputs Text</h2>
     <form action="">
-        <label for="pnome">Primeiro Nome</label> 
+        <label for="pnome">Primeiro Nome</label>
         <input type="text" id="pnome" name="pnome" placeholder="Seu nome" required> <br> <br>
 
         <label for="sobrenome">Sobrenome</label>
         <input type="text" id="sobrenome" name="sobrenome" placeholder="Seu Sobrenome" required> <br> <br>
-        
+
         <label for="email">Email</label>
         <input type="email" id="email" name="email" placeholder="Seu Email" required> <br> <br>
 
         <hr>
         <h2>Inputs Radio/Select</h2>
         <label> <strong>Qual seu nível na Programação?</strong></label> <br>
-            <label> <!-- A PROPRIEDADE RADIO NÃO DEIXA MARCAR MAIS DE UM CHECKBOX -->
-                <input type="radio" name="level" value="iniciante">Iniciante 
-            </label> 
-            <label>
-                <input type="radio" name="level" value="medio" checked> Médio
-            </label>
-            <label>
-                <input type="radio" name="level" value="avançado"> Avançado 
-            </label>
-            <label>
-                <input type="radio" name="level" value="pro"> PRÓ 
-            </label> <br><br>
-                <!-- TIPO SELECT PARA SELECIONAR ITENS -->
-                <label for="escolaridade">
-                    <strong>Esolaridade</strong>
-                </label>
-                <select id="escolaridade" required>
-                    <option selected disabled value="">Selecione</option> <!-- VAI VIM SELECIONADO DESABILITADO E VALOR VAZIO -->
-                    <option value="ens.fundamental">Ens.Fundamental</option>
-                    <option value="ens.medio">Ens.Médio</option>
-                    <option value="ens.superior">Ens.Superior</option>
-                </select>
-            
-            <br><br>
+        <label> <!-- A PROPRIEDADE RADIO NÃO DEIXA MARCAR MAIS DE UM CHECKBOX -->
+            <input type="radio" name="level" value="iniciante">Iniciante
+        </label>
+        <label>
+            <input type="radio" name="level" value="medio" checked> Médio
+        </label>
+        <label>
+            <input type="radio" name="level" value="avançado"> Avançado
+        </label>
+        <label>
+            <input type="radio" name="level" value="pro"> PRÓ
+        </label> <br><br>
+        <!-- TIPO SELECT PARA SELECIONAR ITENS -->
+        <label for="escolaridade">
+            <strong>Esolaridade</strong>
+        </label>
+        <select id="escolaridade" required>
+            <option selected disabled value="">Selecione</option>
+            <!-- VAI VIM SELECIONADO DESABILITADO E VALOR VAZIO -->
+            <option value="ens.fundamental">Ens.Fundamental</option>
+            <option value="ens.medio">Ens.Médio</option>
+            <option value="ens.superior">Ens.Superior</option>
+        </select> <br><br>
+
+        <strong>Selecione as tecnologias que você conhece:</strong> <br>
+
+        <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+        <label for="tecnologia1">HTML</label>
+        
+        <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+        <label for="tecnologia2">CSS</label>
+        
+        <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+        <label for="tecnologia3">JavaScript</label>
+        
+        <input type="checkbox" id="tecnologia4" name="tecnologia4" value="Linguagem C">
+        <label for="tecnologia4">Linguagem C</label> <br><br>
+
+        <label for="">Data de Nasciment</label>
+        <input type="datetime-local" id="nascimento" name="nascimento">
+
+        <br><br>
         <input type="submit" value="Cadastrar">
     </form>
     <hr>
 
     <h2>Funcionamento</h2>
     <p>Abaixo eu identifico o meu input como "pnome" através do atributo <b>id e name.</b> <br>
-    Faço isso para indicar a relação da minha label ao aquele input (que é referente ao input), através do: <br> <b>"label for=pnome</b>."
+        Faço isso para indicar a relação da minha label ao aquele input (que é referente ao input), através do: <br>
+        <b>"label for=pnome</b>."
     </p>
     <p>
         Placeholder da uma <b>dica</b> do que deve ser preenchido. <br>
@@ -62,4 +84,5 @@
 
 
 </body>
+
 </html>
