@@ -1,12 +1,14 @@
 
 .primeiro-h1{
-  color: red;
+  color: #ff0000;
+  /*
+  font-family: 'Roboto', sans-serif;
+  color: red; 
+  color: rgb(0, 0, 255); 
+  color: rgba(0, 0, 255, 0.5); 
+  O Ulimo parâmetro equivale a opacidade, força da cor 
+  CARREGOU O SITE VAI USAR A PRIMEIRA, SE NAO DEU CERTO
+  A SEGUNDA, SE NÃO A TERCEIRA serif SÃO OS TRACINHOS NA LETRA 
+  */
 }
 
-#titulo{
-  color: green;
-}
-
-.titulo-h2{
-  font-style: italic;
-}
