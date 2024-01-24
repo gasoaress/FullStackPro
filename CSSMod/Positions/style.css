@@ -1,0 +1,35 @@
+*{ /* asterisco -> global */
+  box-sizing: border-box;
+  /* link ex border box https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  height: 180vh; /* 180 View Port, além de tela cheia eu posso SCROLAR o site */
+}
+.container{
+  background-color: #121212;
+  width: 700px;
+  color: #ffffff;
+  margin: auto;  /* MARGIN: auto -> Centraliza o elemento todo*/
+  padding: 50px; 
+  border: 4px solid red;
+  border-radius: 10px;
+}
+
+.area{
+  position: relative;
+  top: 150px;
+  left: 20px;
+  border: 5px solid green;
+}
+
+/* 
+  > 1. Por padrão temos o Static ou seja, Estático.
+  > 2. Relative  o elemento é posicionado em relação a sua posição normal,
+  porém conseguimos manipular as propriedades TOP, BOTTOM, LEFT, RIGHT (locao onde vai ficar).
+  > 3. Absolute
+  > 4. Fixed
+  > 5. Sicky
+  */
+
