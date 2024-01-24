@@ -16,4 +16,27 @@ body{
   border-radius: 10px;
 }
 
+.rede-social h2 {
+  text-align: center;
+}
+
+.rede-social ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.rede-social  li {
+  margin-bottom: 12px;
+}
+
+.rede-social a {
+  text-decoration: none;
+  color: #121212;
+}
+
+.rede-social a:hover { /* :hover diz que quero fazer uma ação quando passar o mouse por cima */
+  color: red;
+}
+
 
