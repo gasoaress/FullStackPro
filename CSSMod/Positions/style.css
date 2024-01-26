@@ -17,20 +17,29 @@ body{
   border-radius: 10px;
 }
 
-.area{
-  position: relative;
-  width: 600px;
-  height: 500px;
-  border: 5px solid green;
+header {
+  background-color:#5bf2ba;
+  position: sticky;
+  width: 100%; /* Vai sempre ocupar toda a tela (DIR e ESQ) */
+  top: 0;
 }
 
-.area-absolute{
+/* .area{
+  position: relative; 
+ border: 5px solid green; 
+ position: fixed;
+  width: 200px;
+  height: 50px;
+  background-color: green;
+} */
+
+/* .area-absolute{
   position: absolute;
   border: 5px solid blue;
   padding: 15px;
   bottom: 0;
   right: 0;
-}
+} */
 
 /* 
   > 1. Por padrão temos o Static ou seja, Estático.
@@ -39,10 +48,11 @@ body{
   porém conseguimos manipular as propriedades TOP, BOTTOM, LEFT, RIGHT (locao onde vai ficar).
   
   > 3. Absolute: é posicionado em relação ao seu elemento pai mais próximo que possui relative,
-  se não tiver relative é posiciado em relação ao body
+  se não tiver relative é posiciado em relação ao body.
   
-  > 4. Fixed
+  > 4. Fixed é posicionado em relação a ViewPort (área do browser onde aparece meu site)
+  sempre fica na mesma posição mesmo se a página tiver scroll. TOP, BOTTOM, LEFT, RIGHT 
   
-  > 5. Sicky
+  > 5. Sicky é posicionado em relação ao Scroll
   */
 
