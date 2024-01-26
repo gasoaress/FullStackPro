@@ -1,0 +1,30 @@
+*{ /* asterisco -> global */
+  box-sizing: border-box;
+  /* link ex border box https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  /* Reset nada maais é que zerar,resetar algumas estilizações Pré definidas como o espaços do H1 por exemplo*/
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  height: 180vh; /* 180 View Port, além de tela cheia eu posso SCROLAR o site */
+}
+.container{
+  background-color: #121212;
+  width: 700px;
+  color: #ffffff;
+  margin: auto;  /* MARGIN: auto -> Centraliza o elemento todo*/
+  padding: 50px; 
+  border: 4px solid red;
+  border-radius: 10px;
+}
+
+header {
+  background-color:#5bf2ba;
+  position: sticky;
+  width: 100%; /* Vai sempre ocupar toda a tela (DIR e ESQ) */
+  top: 0;
+}
+
