@@ -1,4 +1,4 @@
-# Meu Repositório de Estudos HTML e CSS
+# Repositório de Estudos HTML e CSS
 
 Este repositório contém práticas e estudos relacionados a HTML e CSS, abrangendo conceitos essenciais, como estrutura HTML, estilização CSS, estilização em cascata e uso do flexbox.
 
